@@ -1,0 +1,17 @@
+[
+    {"id": 54, "nombre": "Psyduck", "tipo": "Agua", "poder_combate": 380},
+    {"id": 169, "nombre": "Crobat", "tipo": ["Veneno", "Volador"], "poder_combate": "535"},
+    {"id": 195, "nombre": "Quagsire", "tipo":["Agua", "Tierra"], "poder_combate": 470},
+    {"id": 212, "nombre": "Scizor", "tipo": ["Bicho", "Acero"], "poder_combate": 500},
+    {"id": 214, "nombre": "Heracross", "tipo": ["Bicho", "Lucha"], "poder_combate": 500},
+    {"id": 330, "nombre": "Flygon", "tipo": ["Dragon","Tierra"], "poder_combate": 520},
+    {"id": 501, "nombre": "Oshawott", "tipo": "Agua", "poder_combate": 308},
+    {"id": 499, "nombre": "Pignite", "tipo": ["Fuego", "Lucha"], "poder_combate": 418},
+    {"id": 561, "nombre": "Sigilyph", "tipo": ["Volador", "Psiquico"], "poder_combate": 490},
+    {"id": 793, "nombre": "Nihilego", "tipo": ["Veneno", "Roca"], "poder_combate": 570},
+    {"id": 801, "nombre": "Magearna", "tipo": ["Hada", "Acero"], "poder_combate": 600},
+    {"id": 786, "nombre": "Tapu Lele", "tipo": ["Psiquico", "Hada"], "poder_combate": 570},
+    {"id": 980, "nombre": "Clodsire", "tipo": ["Tierra", "Veneno"], "poder_combate": 480},
+    {"id": 1002, "nombre": "Chien Pao", "tipo": ["Siniestro", "Hielo"], "poder_combate": 570},
+    {"id": 1019, "nombre": "Hydrapple", "tipo": ["Planta", "Dragon"], "poder_combate": 540}
+]
