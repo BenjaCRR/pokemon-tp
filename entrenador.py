@@ -158,6 +158,14 @@ class Entrenador:
         for pokemon in self.equipo:
             print(pokemon)
 
+    def buscar_equipo(self, nombre):
+
+        for pokemon in self.equipo:
+
+            if pokemon.nombre.lower() == nombre.lower():
+                return pokemon
+
+        return None
 
     def curar_equipo(self):
 

@@ -1,6 +1,6 @@
 [
     {"id": 54, "nombre": "Psyduck", "tipo": "Agua", "poder_combate": 380},
-    {"id": 169, "nombre": "Crobat", "tipo": ["Veneno", "Volador"], "poder_combate": "535"},
+    {"id": 169, "nombre": "Crobat", "tipo": ["Veneno", "Volador"], "poder_combate": 535},
     {"id": 195, "nombre": "Quagsire", "tipo":["Agua", "Tierra"], "poder_combate": 470},
     {"id": 212, "nombre": "Scizor", "tipo": ["Bicho", "Acero"], "poder_combate": 500},
     {"id": 214, "nombre": "Heracross", "tipo": ["Bicho", "Lucha"], "poder_combate": 500},
