@@ -32,7 +32,7 @@ for medalla in medallas[:2]:
 
 while True:
 
-    print("\n========== MENÚ ==========")
+    print("\n--- MENÚ ---")
     print("1 - Ver Pokédex")
     print("2 - Ver Equipo Principal")
     print("3 - Ver PC")
