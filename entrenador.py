@@ -223,21 +223,26 @@ class Entrenador:
             return
 
         if random.choice([True, False]):
-
+            print("Luchando...")
+            time.sleep(1.67)
             print("¡Ganaste!")
 
             self.agregar_medalla(gimnasios[opcion])
 
         else:
+            print("Luchando...")
+            time.sleep(1.67)
             print("Perdiste.")
 
     def agregar_medalla(self, medalla):
 
         if medalla in self.medallas:
+            time.sleep(0.5)
             print(f"La medalla '{medalla}' ya fue obtenida.")
 
         else:
             self.medallas.add(medalla)
+            time.sleep(0.5)
             print(f"Se obtuvo la {medalla}.")
 
     def mostrar_medallas(self):

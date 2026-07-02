@@ -1,24 +1,20 @@
 ANÁLISIS DE COMPLEJIDAD
 
-1)
-
-Agregar un Pokémon al final del Equipo Principal (array) tiene complejidad O(1), ya que Python agrega el elemento al final de la lista sin recorrer todos los elementos.
+1. Agregar un Pokémon al final del Equipo Principal (array) tiene complejidad O(1), ya que Python agrega el elemento al final de la lista sin recorrer todos los elementos.
 
 Agregar un Pokémon al inicio de una Lista Enlazada tiene complejidad O(1), ya que solo se crea un nuevo nodo y se modifica el puntero al inicio de la lista.
 
-Ambas operaciones poseen complejidad constante.
+Ambas operaciones poseen complejidad constante, lineal.
 
-2)
 
-La Pokédex se implementó utilizando un Hash Map porque permite buscar un Pokémon por su ID en tiempo promedio O(1).
+2. La Pokédex se implementó utilizando un Hash Map porque permite buscar un Pokémon por su ID en tiempo promedio O(1).
 
 Si se utilizara una lista convencional sería necesario recorrer los elementos uno por uno hasta encontrar el buscado, obteniendo una complejidad O(n).
 
-Por esta razón el Hash Map es una estructura mucho más eficiente para realizar búsquedas frecuentes.
+Por esta razón el Hash Map es una estructura mucho más eficiente para realizar búsquedas frecuentes y directas.
 
-3)
 
-Bubble Sort posee una complejidad O(n²), por lo que ordenar una PC con 6000 Pokémon requeriría millones de comparaciones.
+3. Bubble Sort posee una complejidad O(n²), por lo que ordenar una PC con 6000 Pokémon requeriría millones de comparaciones.
 
 Quick Sort posee una complejidad promedio O(n log n), siendo mucho más rápido para grandes cantidades de datos.
 
