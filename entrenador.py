@@ -82,7 +82,7 @@ class ListaEnlazada:
         for i in range(n):
             for j in range(n - i - 1):
 
-                if lista[j].nombre > lista[j + 1].nombre:
+                if lista[j].nombre < lista[j + 1].nombre:
                     lista[j], lista[j + 1] = lista[j + 1], lista[j]
 
         self.desde_lista(lista)
@@ -97,7 +97,7 @@ class ListaEnlazada:
             actual = lista[i]
             j = i - 1
 
-            while j >= 0 and str(lista[j].tipo) > str(actual.tipo):
+            while j >= 0 and str(lista[j].tipo) < str(actual.tipo):
                 lista[j + 1] = lista[j]
                 j -= 1
 
@@ -121,7 +121,7 @@ class ListaEnlazada:
     def ordenar_poder(self):
 
         lista = self.quick_sort(self.a_lista())
-
+        lista = lista[::-1]
         self.desde_lista(lista)
 
 class Entrenador:

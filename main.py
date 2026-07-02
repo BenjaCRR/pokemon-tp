@@ -87,14 +87,17 @@ while True:
 
         if op == "1":
             entrenador.pc.ordenar_nombre()
+            entrenador.pc.mostrar()
 
         elif op == "2":
             entrenador.pc.ordenar_tipo()
+            entrenador.pc.mostrar()
 
         elif op == "3":
             entrenador.pc.ordenar_poder()
-
-        entrenador.pc.mostrar()
+            entrenador.pc.mostrar()
+        else:
+            print("Opcion inválida.")
 
     elif opcion == "7":
 
