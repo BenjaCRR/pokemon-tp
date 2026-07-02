@@ -1,5 +1,6 @@
 from collections import deque
 import random
+import time
 
 class Nodo:
     def __init__(self, pokemon):
@@ -172,6 +173,7 @@ class Entrenador:
             pokemon = self.centro.popleft()
 
             print(f"{pokemon.nombre} fue curado.")
+            time.sleep(1)
 
     def transferir_oak(self, nombre):
 

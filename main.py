@@ -1,5 +1,5 @@
 import json
-
+import time
 from pokemon import Pokemon
 from pokedex import Pokedex
 from entrenador import Entrenador
@@ -147,3 +147,4 @@ while True:
     else:
 
         print("Opción inválida.")
+    time.sleep(2)
