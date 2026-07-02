@@ -14,18 +14,11 @@ class ListaEnlazada:
 
     def agregar(self, pokemon):
 
-        nuevo = Nodo(pokemon)
+    nuevo = Nodo(pokemon)
 
-        if self.inicio is None:
-            self.inicio = nuevo
-            return
+    nuevo.siguiente = self.inicio
 
-        actual = self.inicio
-
-        while actual.siguiente:
-            actual = actual.siguiente
-
-        actual.siguiente = nuevo
+    self.inicio = nuevo
 
     def eliminar(self, nombre):
 
