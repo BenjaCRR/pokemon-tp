@@ -44,7 +44,7 @@ while True:
     print("9 - Transferir Pokémon al Profesor Oak")
     print("10 - Deshacer última transferencia")
     print("11 - Desafiar Líder de Gimnasio")
-    print("12 - Buscar Pokémon por ID (Búsqueda Binaria)")
+    print("12 - Buscar Pokémon por ID ")
     print("0 - Salir")
 
     opcion = input("Opción: ")
